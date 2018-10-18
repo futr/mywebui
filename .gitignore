@@ -1,0 +1,11 @@
+*.db
+*.o
+main
+*.*~
+*.BAK
+*.txt
+*.pro.user*
+*.autosave
+*.swp
+*.orig
+tester/
