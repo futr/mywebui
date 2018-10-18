@@ -16,6 +16,10 @@
     box-shadow: 0 2px 3px -1px #BBBBBB;
 }
 
+.easybtn::-moz-focus-inner {
+    border: 0;
+}
+
 .easybtn:hover {
     cursor: pointer;
 }
