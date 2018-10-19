@@ -11,7 +11,7 @@
     color: white;
     background-color: #1E90FF;
     
-    margin: 2px;
+    margin: 1px;
     padding: 9px;
     padding-left: 12px;
     padding-right: 12px;
@@ -26,6 +26,10 @@
 
 .easybtn:hover {
     cursor: pointer;
+}
+
+.easybtn:enabled:hover {
+    filter: brightness( 0.95 );
 }
 
 .easybtn:enabled:active {
