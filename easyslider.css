@@ -13,6 +13,10 @@ input[type=range].easyslider {
     -webkit-touch-callout: none;
 }
 
+input[type=range].easyslider:disabled {
+    border: 0;
+}
+
 input[type=range].easyslider:focus {
     outline: none;
 }
