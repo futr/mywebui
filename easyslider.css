@@ -58,9 +58,17 @@ input[type=range].easyslider::-moz-range-thumb {
     box-shadow: 0 2px 3px -1px #BBBBBB;
     cursor: pointer;
 }
-input[type=range].easyslider:hover::-webkit-slider-thumb {
+input[type=range].easyslider:enabled:hover::-webkit-slider-thumb {
     filter: brightness( 1.2 );
 }
-input[type=range].easyslider:hover::-moz-range-thumb {
+input[type=range].easyslider:enabled:hover::-moz-range-thumb {
     filter: brightness( 1.2 );
+}
+input[type=range].easyslider:disabled::-webkit-slider-thumb {
+    background-color: #C2C2C2;
+    box-shadow: 0 0 0 0;
+}
+input[type=range].easyslider:disabled::-moz-range-thumb {
+    background-color: #C2C2C2;
+    box-shadow: 0 0 0 0;
 }
