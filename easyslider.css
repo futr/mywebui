@@ -6,7 +6,7 @@
 
 /* 全体の設定 */
 input[type=range].easyslider {
-    height: 28px;
+    height: 30px;
     outline: none;
     -webkit-appearance: none;
     -webkit-user-select: none;
