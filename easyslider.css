@@ -4,6 +4,7 @@
  *  
  */
 
+/* 全体の設定 */
 input[type=range].easyslider {
     height: 28px;
     outline: none;
@@ -25,6 +26,10 @@ input[type=range].easyslider:focus {
 
 input[type=range].easyslider::-moz-focus-outer {
     border: 0;
+}
+
+input[type=range].easyslider::-ms-tooltip {
+    display: none;
 }
 
 /* レール */
