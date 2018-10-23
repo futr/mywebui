@@ -42,6 +42,20 @@ input[type=range].easyslider::-moz-range-track {
     border-radius: 6px;
     cursor: pointer;
 }
+input[type=range].easyslider::-ms-fill-lower {
+    background-color: #E5E5E5;
+    height: 12px;
+    border: 1px solid #7F7F7F;
+    border-radius: 6px;
+    cursor: pointer;
+}
+input[type=range].easyslider::-ms-fill-upper {
+    background-color: #E5E5E5;
+    height: 12px;
+    border: 1px solid #7F7F7F;
+    border-radius: 6px;
+    cursor: pointer;
+}
 
 /* 玉 */
 input[type=range].easyslider::-webkit-slider-thumb {
@@ -64,10 +78,23 @@ input[type=range].easyslider::-moz-range-thumb {
     box-shadow: 0 2px 3px -1px #BBBBBB;
     cursor: pointer;
 }
+input[type=range].easyslider::-ms-thumb {
+    margin-top: 0;  /* Webkitのフリをしてずれるので0に戻す */
+    height: 28px;
+    width: 28px;
+    background-color: #1E90FF;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px -1px #BBBBBB;
+    cursor: pointer;
+}
 input[type=range].easyslider:enabled:hover::-webkit-slider-thumb {
     filter: brightness( 1.2 );
 }
 input[type=range].easyslider:enabled:hover::-moz-range-thumb {
+    filter: brightness( 1.2 );
+}
+input[type=range].easyslider:enabled:hover::-ms-thumb {
     filter: brightness( 1.2 );
 }
 input[type=range].easyslider:disabled::-webkit-slider-thumb {
@@ -75,6 +102,10 @@ input[type=range].easyslider:disabled::-webkit-slider-thumb {
     box-shadow: 0 0 0 0;
 }
 input[type=range].easyslider:disabled::-moz-range-thumb {
+    background-color: #C2C2C2;
+    box-shadow: 0 0 0 0;
+}
+input[type=range].easyslider:disabled::-ms-thumb {
     background-color: #C2C2C2;
     box-shadow: 0 0 0 0;
 }
